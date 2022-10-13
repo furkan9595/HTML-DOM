@@ -1,3 +1,5 @@
+CLASS
+---------------------------------------------------------
 <!DOCTYPE html>
 <html>
 <body>
@@ -15,6 +17,34 @@
 <script>
 
 const element=document.querySelectorAll("p.demo");
+
+
+document.getElementById("demolar").innerHTML='içeriğini alarak '+ element[0].innerHTML;
+</script>
+
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ID
+------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo">birinci içindeki birinci p</p>
+<p id="demo">ikinci içindeki ikinci p </p>
+<p id="demo">üçüncü içindeki üçüncü p</p>
+
+<p id="demolar"></p>
+
+
+
+<script>
+
+const element=document.querySelectorAll("#demo");
 
 
 document.getElementById("demolar").innerHTML='içeriğini alarak '+ element[0].innerHTML;
