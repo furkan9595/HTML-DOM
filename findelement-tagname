@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="main">
+
+<p id="demo">div içindeki datayı aldık ve içerisine yazdık.</p>
+<p id="demo1"></p>
+</div>
+<script>
+const element=document.getElementById("main");
+const y=document.getElementsByTagName('p');
+
+document.getElementById("demo1").innerHTML="içeriğini alarak"+y[0].innerHTML;
+</script>
+
+</body>
+</html>
