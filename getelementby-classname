@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="main">
+
+<p id="demo">div içindeki class aldık ve içerisine yazdık.</p>
+<p id="demo1"></p>
+</div>
+  
+<script>
+
+const element=document.getElementsByClassName("main")
+const y=document.getElementsByTagName('p');
+
+document.getElementById("demo1").innerHTML="içeriğini alarak "+y[0].innerHTML;
+</script>
+
+</body>
+</html>
