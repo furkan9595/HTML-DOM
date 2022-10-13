@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>merhaba title ım ben </title>
+</head>
+<body>
+
+<h2>Finding HTML Elements Using document.scripts</h2>
+
+<p id="demo"></p>
+
+
+<script>
+
+</script>
+<script>
+document.getElementById("demo").innerHTML =
+"Number of scripts: " + document.title;
+</script>
+
+</body>
+</html>
