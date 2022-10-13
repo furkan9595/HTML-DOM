@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>başlık h2 tagıdır.</h2>
+<p>çekilen datalar veriler içindir.</p>
+
+
+<p id="demo"></p>
+
+<script>
+
+document.getElementById("demo").innerHTML="sonuc :"+document.body.innerHTML;
+
+</script>
+
+</body>
+</html>
