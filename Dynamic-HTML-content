@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM Dynamic </h2>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Date : " + Date();
+</script>
+</body>
+</html>
+-------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM Dynamic </h2>
+<p id="demo"></p>
+
+
+
+
+
+<script>
+const d = new Date();
+let day = d.getUTCDate();
+document.getElementById("demo").innerHTML = "Date : " + d;
+</script>
+
+</body>
+</html>
