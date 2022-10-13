@@ -1,0 +1,19 @@
+embeds.length : kod içerisinde embed tagı kullanılmış mı bunu sonucunu döndürüyor. Kaç adet olduğunu
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>başlık h2 tagıdır.</h2>
+<p>çekilen datalar veriler içindir.</p>
+<embed src="file/video.mp4" width="100%" height="500px">
+<embed src="file/video.mp4" width="100%" height="500px">
+<p id="demo"></p>
+
+<script>
+
+document.getElementById("demo").innerHTML="sonuc :"+document.embeds.length;
+
+</script>
+
+</body>
+</html>
