@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<input id="btn" type="button" name="" value="Tıkla">
+<p id="tikla"></p>
+
+<script>
+document.getElementById("btn").addEventListener("click",displayData)
+
+function displayData()
+{
+  document.getElementById("tikla").innerHTML=Date();
+}
+</script>
+
+</body>
+</html>
+
+------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+<input id="btn" type="button" name="" value="Tıkla">
+<p id="tikla"></p>
+
+<script>
+document.getElementById("btn").addEventListener("click",function()
+{
+    document.getElementById("tikla").innerHTML=Date();
+})
+
+ 
+</script>
+
+</body>
+</html>
+
+-------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+  
+<input id="btn" type="button" name="" value="Tıkla">
+<p id="tikla"></p>
+
+<script>
+let x=document.getElementById("btn");
+x.addEventListener("click",function()
+{
+    document.getElementById("tikla").innerHTML=Date();
+})
+x.addEventListener("click",some);
+
+function some()
+{
+  alert("ikinci olarak ben çalıştım.");
+}
+
+</script>
+
+</body>
+</html>
+-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
