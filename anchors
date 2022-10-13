@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+  <a name="html" href="#">HTML Tutorial</a><br>
+  <a name="css" href="#">CSS Tutorial</a><br>
+  <a name="xml" href="#"> XML Tutorial</a><br>
+
+<p id="demo"></p>
+
+<script>
+
+document.getElementById("demo").innerHTML="sonuc :"+document.anchors.length;
+
+</script>
+
+</body>
+</html>
