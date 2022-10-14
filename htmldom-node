@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p>HTML World</p>
+<p>Hello Norway</p>
+<input type="submit" name="" value="Gönder" onclick="ahmet()">
+<p id="demo"></p>
+
+<script>
+let a=document.querySelectorAll("p");
+
+function ahmet(){
+for (var i = 0; i < a.length; i++)
+{
+  a[i].style.color="red";
+}
+}
+
+</script>
+</body>
+</html>
