@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<meta>
+<title>Anasayfa</title>
+</meta>
+<body>
+
+
+
+<button type="button" onclick="openwindow();" name="button">OPEN </button>
+
+<script>
+
+function openwindow()
+{
+  const mywindow=window.open("","","width=250 , height=300");
+  mywindow.focus();
+}
+</script>
+
+
+</body>
+</html>
